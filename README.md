@@ -1,13 +1,14 @@
 # DefaultLocationSetter
-About the program
-This program creates a batch file to quickly change the default location on your Windows computer. The default location is used when the actual location is unavailable or when the location service is turned off.
+Setting Default Location for Windows 10
+This batch file creates a .bat file that sets the default location in Windows 10. If the actual location is not available or the location service is turned off, this default location will be used.
 
-How to use the program
-Run the program.
-The program will set default coordinates in settings and prompt you to press Enter to continue.
-The program will retrieve the current default location from the registry.
-Enter a filename for the batch file that will be created.
-The program will write the command to write the default location to the new batch file.
-The program will restart the location service and check if the SplunkForwarder service is running.
-The batch file will be saved to your desktop.
-Note: You can remove the code related to checking the SplunkForwarder service if it is not applicable to your use case.
+Prerequisites
+This script requires administrative privileges to write to the registry. Make sure you run the script as an administrator.
+
+Usage
+Run the batch file SetDefaultLocation.bat and follow the prompts to enter a filename for the generated .bat file and the default location coordinates.
+
+Run the generated .bat file to set the default location in the Windows registry.
+
+Note
+This script also checks if the SplunkForwarder service is running and attempts to start it if it is not. If you do not need this functionality, you can remove the relevant code from the script.
