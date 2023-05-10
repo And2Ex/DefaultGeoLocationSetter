@@ -3,7 +3,7 @@ Windows Location Default Setter
 This batch file sets the default location for the Windows location service, which affects various apps and services that rely on location information. By default, Windows sets the default location based on the device's IP address, but sometimes you may want to set it manually, especially if you use a VPN or your IP address changes frequently.
 
 How to use
-Download the set_default_location.bat file from this repository to your computer.
+Download the def-loc-setter.bat file from this repository to your computer.
 Double-click the file to run it. You may need to confirm that you want to run the file as an administrator.
 Wait for the file to finish. It will prompt you to enter a filename for the batch file that will write the new location value to the registry. You can choose any filename you like, but it's recommended to use a descriptive name related to the location you're setting (e.g., office.bat or home.bat).
 The new batch file will be created on your desktop. Double-click it to write the new location value to the registry.
