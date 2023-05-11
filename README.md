@@ -6,7 +6,7 @@ Prerequisites
 This script requires administrative privileges to write to the registry. Make sure you run the script as an administrator.
 
 Usage
-Run the batch file def-loc-setter.bat and follow the prompts to enter a filename for the generated .bat file and the default location coordinates.
+Run the batch file def-geo-setter.bat and follow the prompts to enter a filename for the generated .bat file and the default location coordinates.
 
 Run the generated .bat file to set the default location in the Windows registry.
 
